@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BF62440A-8779-4B6B-8D03-A0E292198F53}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Restaurante</RootNamespace>
+    <AssemblyName>Restaurante</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ComponentFactory.Krypton.Toolkit">
+      <HintPath>..\..\..\Downloads\Krypton-master\Krypton-master\Bin\ComponentFactory.Krypton.Toolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Almuerzo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Almuerzo.Designer.cs">
+      <DependentUpon>Almuerzo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cena.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cena.Designer.cs">
+      <DependentUpon>Cena.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Desayunos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Desayunos.Designer.cs">
+      <DependentUpon>Desayunos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Almuerzo.resx">
+      <DependentUpon>Almuerzo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cena.resx">
+      <DependentUpon>Cena.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Desayunos.resx">
+      <DependentUpon>Desayunos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\desayunos-comida-rapida.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\restaurantes-para-desayunar-cdmx.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\restaurantes-para-desayunar-cdmx1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\taberna-recreo-scaled.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\french-toast.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chilaquiles-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\what-s-for-breakfast.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9e313015e4509007c8e626d2e0c0fea7aeb320610458f532f1331362f60407f0.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\albondigas-de-jengibre-con-brocoli-y-sesamo-64106bc1392cf.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\albondigas-de-jengibre-con-brocoli-y-sesamo-64106bc1392cf1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pozoles-texcoco-nuevo-local-gourmet-cdmx-6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\copia-de-copia-de-43_8_154561-161962586337445.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Platos-de-comida-que-pides-a-domicilio-y-puedes-hacer-en-casa_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nqpdTRsvpw0Vd2hPHArWvKnUEZNLlt.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\what-s-for-breakfast1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1366_2000.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cena-deliciosa-lomo-al.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tomates-rellenos-de-ensalada-de-lentejas_517f074b_600x600.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rutina-comidas-1080x675.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo Restaurante Minimalista Negro.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

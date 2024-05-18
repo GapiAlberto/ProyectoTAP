@@ -1,0 +1,132 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Alberto\\Desktop\\Restaurante\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BF62440A-8779-4B6B-8D03-A0E292198F53}|Restaurante.csproj|c:\\users\\alberto\\desktop\\restaurante\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BF62440A-8779-4B6B-8D03-A0E292198F53}|Restaurante.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF62440A-8779-4B6B-8D03-A0E292198F53}|Restaurante.csproj|C:\\Users\\Alberto\\Desktop\\Restaurante\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF62440A-8779-4B6B-8D03-A0E292198F53}|Restaurante.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF62440A-8779-4B6B-8D03-A0E292198F53}|Restaurante.csproj|C:\\Users\\Alberto\\Desktop\\Restaurante\\desayunos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BF62440A-8779-4B6B-8D03-A0E292198F53}|Restaurante.csproj|solutionrelative:desayunos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF62440A-8779-4B6B-8D03-A0E292198F53}|Restaurante.csproj|C:\\Users\\Alberto\\Desktop\\Restaurante\\desayunos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF62440A-8779-4B6B-8D03-A0E292198F53}|Restaurante.csproj|solutionrelative:desayunos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF62440A-8779-4B6B-8D03-A0E292198F53}|Restaurante.csproj|C:\\Users\\Alberto\\Desktop\\Restaurante\\cena.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF62440A-8779-4B6B-8D03-A0E292198F53}|Restaurante.csproj|solutionrelative:cena.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF62440A-8779-4B6B-8D03-A0E292198F53}|Restaurante.csproj|C:\\Users\\Alberto\\Desktop\\Restaurante\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF62440A-8779-4B6B-8D03-A0E292198F53}|Restaurante.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF62440A-8779-4B6B-8D03-A0E292198F53}|Restaurante.csproj|C:\\Users\\Alberto\\Desktop\\Restaurante\\cena.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BF62440A-8779-4B6B-8D03-A0E292198F53}|Restaurante.csproj|solutionrelative:cena.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Alberto\\Desktop\\Restaurante\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\Alberto\\Desktop\\Restaurante\\Form1.Designer.cs",
+              "RelativeToolTip": "Form1.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T01:21:08.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Cena.cs",
+              "DocumentMoniker": "C:\\Users\\Alberto\\Desktop\\Restaurante\\Cena.cs",
+              "RelativeDocumentMoniker": "Cena.cs",
+              "ToolTip": "C:\\Users\\Alberto\\Desktop\\Restaurante\\Cena.cs",
+              "RelativeToolTip": "Cena.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAjwBUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T00:42:41.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Desayunos.cs",
+              "DocumentMoniker": "C:\\Users\\Alberto\\Desktop\\Restaurante\\Desayunos.cs",
+              "RelativeDocumentMoniker": "Desayunos.cs",
+              "ToolTip": "C:\\Users\\Alberto\\Desktop\\Restaurante\\Desayunos.cs",
+              "RelativeToolTip": "Desayunos.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAjwB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T00:08:26.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Desayunos.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Alberto\\Desktop\\Restaurante\\Desayunos.cs",
+              "RelativeDocumentMoniker": "Desayunos.cs",
+              "ToolTip": "C:\\Users\\Alberto\\Desktop\\Restaurante\\Desayunos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Desayunos.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T15:29:36.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Alberto\\Desktop\\Restaurante\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\Alberto\\Desktop\\Restaurante\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAawFkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T01:46:34.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Alberto\\Desktop\\Restaurante\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\Alberto\\Desktop\\Restaurante\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T01:30:11.989Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Cena.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Alberto\\Desktop\\Restaurante\\Cena.cs",
+              "RelativeDocumentMoniker": "Cena.cs",
+              "ToolTip": "C:\\Users\\Alberto\\Desktop\\Restaurante\\Cena.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Cena.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T05:43:53.99Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
